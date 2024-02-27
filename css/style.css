@@ -1,0 +1,9 @@
+.task-manager {
+    display: flex;
+    flex-direction: row;
+}
+
+.task-board {
+    background-color: bisque;
+    margin: 20px;
+}
