@@ -29,14 +29,9 @@
           </form>
     </search>
 
-    <div id="login">
-        <div>
-            <input type="text" name="username" placeholder="Username">            
-        </div>
-        <div>
-            <input type="password" name="password" placeholder="password">
-        </div>
-        <input type="submit" value="Login">
+    <div id="user">
+        <p>Logged in as <span id="username">Bob Bobalooba</span></p>
+        <button id="logout">Logout</button>
     </div>
   </header>
 
@@ -215,6 +210,17 @@
             <li>Practice Javascript</li>
         </ul>
     </div>
+
+    <div id="task-timer-widget">
+        <h3>Task Timer</h3>
+        <p id="task-timer-remaining">12</p>
+        <p id="task-timer-units">min</p>
+        <div id="task-timer-controls">
+            <button id="task-timer-stop">Stop</button>
+            <button id="task-timer-reset">Reset</button>
+        </div>
+    </div>
+
 
   </div>
 
