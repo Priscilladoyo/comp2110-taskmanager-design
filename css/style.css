@@ -1,4 +1,4 @@
-.task-manager {
+#task-manager {
     display: flex;
     flex-direction: row;
 }
@@ -6,4 +6,9 @@
 .task-board {
     background-color: bisque;
     margin: 20px;
+}
+
+#widgets div {
+    width: 300px;
+    border: 1px solid green;
 }
